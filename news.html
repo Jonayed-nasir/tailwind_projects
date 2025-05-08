@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="thmlTagt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/373594/favicon.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/cfa103c17e.js" crossorigin="anonymous"></script>
+    <title>Ticker AI</title>
+</head>
+
+<body class="bg-white dark:bg-gray-900">
+    <!--== Header Section====================== -->
+    <header class="md:mx-14 md:py-4 py-2 px-2">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-1 md:gap-3">
+                <a href="index.html"><img src="image/tickerAI-logo 1.png" alt="tickerAI-logo" class="w-10 md:w-fit"></a>
+
+                <p class="text-[8px] md:text-xs dark:text-white">A Mark Cuban Company
+                    <br> AI-based Financial Market News Aggregator
+                </p>
+            </div>
+            <div class="flex items-center gap-3 md:gap-7">
+                <a href="index.html">
+                    <button
+                        class="bg-[#5677ac] md:text-base text-xs md:py-3 py-1 md:px-5 px-2 rounded-md text-white font-semibold hover:bg-[#34568B] transition hover:scale-105 hover:translate-y-1">Personalize
+                        News
+                    </button>
+                </a>
+                <div
+                    class="text-[#5677ac] bg-[#5677ac26] md:text-2xl text-lg font-bold size-10 rounded-full flex justify-center items-center hover:scale-105 transition-all cursor-pointer">
+                    IK
+                </div>
+
+                <button id="switch"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor"
+                        class="size-6 dark:stroke-white transition-all hover:scale-105">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="bg-[#F0F0F0] md:px-0 px-5 w-full min-h-screen dark:bg-gray-800">
+        <section class="container md:py-12 py-8 mx-auto">
+            <div
+                class="flex items-center justify-between pb-1 md:pb-2.5  border-b border-black md:border-b-[3px] md:mx-16 dark:border-white">
+                <h2 class="md:text-2xl text-lg font-semibold uppercase text-[background:#333333;] dark:text-white ">
+                    Personolize your news
+                </h2>
+            </div>
+
+            <div class="bg-white max-w-lg mx-auto md:mt-10 mt-6 p-8 dark:bg-gray-700">
+                <h3 class="font-semibold md:text-2xl text-lg text-center text-[#333333] dark:text-white">Select your
+                    Markets</h3>
+
+                <div class="py-5 space-y-5">
+                    <p class="news-head">Stocks </p>
+                    <p class="news-head">Crypto</p>
+                    <p class="news-head">Economy& Business</p>
+                    <p class="news-head">Commodities | Forex</p>
+                    <p class="news-head">Fixed Income</p>
+                </div>
+                <button
+                    class="bg-[#5677AC] w-full py-2 md:py-4 text-white font-medium rounded-full hover:bg-[#34568B] transition-all duration-300 md:text-lg hover:scale-105 cursor-pointer">Continue</button>
+            </div>
+        </section>
+    </section>
+
+
+    <footer class="text-black text-center p-5 w-full dark:text-white">
+        All right reserved &copy; 2025 tickerAI
+    </footer>
+
+
+
+
+
+    <script>
+        const thmlTagt = document.getElementById('thmlTagt');
+        const switchButton = document.getElementById('switch');
+        switchButton.addEventListener('click', () => {
+            thmlTagt.classList.toggle('dark');
+        });
+        // Add additional functionality if needed
+        // Example: console.log('Theme toggled');
+    </script>
+
+
+
+
+
+</body>
+
+</html>
